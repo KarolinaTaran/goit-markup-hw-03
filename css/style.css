@@ -44,9 +44,9 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
 
@@ -271,13 +271,9 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
@@ -399,7 +395,7 @@ img {
   max-width: 264px;
 }
 
-.web {
+.footer .web {
   display: inline-block;
   margin-bottom: 16px;
 }
