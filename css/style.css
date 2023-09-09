@@ -257,7 +257,6 @@ img {
 .card {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   flex-direction: row;
   justify-content: center;
   row-gap: 48px;
@@ -405,4 +404,5 @@ img {
 
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
