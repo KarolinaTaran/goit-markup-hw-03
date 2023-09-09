@@ -47,8 +47,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
-  flex-direction: column;
+
 
 }
 
@@ -334,7 +333,7 @@ img {
 
 .list-container-team {
   background-color: #ffffff;
-  flex-direction: row;
+  flex-direction: column;
   max-width: 232px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
@@ -410,19 +409,12 @@ img {
 
 .text-footer {
   color: var(--cloud, #f4f4fd);
-  padding-bottom: 100px;
+
   max-width: 264px;
 }
 
 .footer-logo {
   margin-bottom: 16px;
   color: var(--iris, #4d5ae5);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  margin-right: 76px;
   display: inline-block;
 }
