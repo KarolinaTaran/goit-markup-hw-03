@@ -99,6 +99,7 @@ img {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo {
@@ -264,14 +265,13 @@ img {
 }
 
 .card-feature-items {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  max-width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
   padding-top: 120px;
   margin-right: 24px;
 }
 
 .card-feature-items:first-child {
-  flex-basis: calc((100% - 3 * 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .card-feature-items:last-child {
@@ -404,6 +404,5 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
