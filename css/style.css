@@ -420,7 +420,7 @@ img {
   max-width: 264px;
 }
 
-.footer-logo {
+.container .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
 }
