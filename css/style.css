@@ -267,6 +267,7 @@ img {
 .card-feature-items {
   flex-basis: calc((100% - 3 * 24px) / 4);
   padding-top: 120px;
+  gap: 24px;
 }
 
 .card-feature-items:first-child {
@@ -339,7 +340,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
+  gap: 24px;
 }
 
 .list-container-team:first-child {
@@ -420,7 +421,7 @@ img {
   max-width: 264px;
 }
 
-.container .footer-logo {
+a .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
 }
