@@ -259,9 +259,9 @@ img {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  gap: 24px;
   row-gap: 48px;
   padding: 0;
-  column-gap: 24px;
 }
 
 .card-feature-items {
