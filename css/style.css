@@ -321,6 +321,15 @@ img {
   margin-bottom: 72px;
 }
 
+.card-team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+}
 
 
 .list-container-team {
