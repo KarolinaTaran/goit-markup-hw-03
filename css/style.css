@@ -305,27 +305,17 @@ img {
 
 .card-team {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
   gap: 24px;
-  row-gap: 48px;
   padding: 0;
 }
 
 .list-container-team {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
-  flex-direction: column;
-  max-width: 232px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   gap: 24px;
-}
-
-.list-container-team:first-child {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  margin-right: 24px;
 }
 
 .list-container-team:last-child {
@@ -339,8 +329,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
-
 
 /* Container 4 */
 .portfolio {
